@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 #Import DataSet
-dataset=pd.read_csv('/content/Data.csv')
+dataset=pd.read_csv('Data.csv')
 X=dataset.iloc[:,:-1].values
 y=dataset.iloc[:,-1].values
 print(X)
